@@ -227,3 +227,59 @@
 
 // const gustaLeer = algunaPersonaGustaLeer(personas);
 // console.log(gustaLeer);
+
+
+//................................................................................
+
+//EJERCICIO 14
+
+// function diaEscogido(dia){
+//     const diaMinuscula = dia.toLowerCase()
+
+//     const diaSemana = {
+//         lunes: "Maria",
+//         martes: "Luis",
+//         miercoles: "Antonia",
+//         jueves: "Pedro",
+//         viernes: "Maria",
+//     }
+    
+//     if (diaSemana[diaMinuscula]){
+//         const contenedorDia = diaSemana[diaMinuscula]
+//         return `Este dia se encarga ${contenedorDia}`
+//     }
+//     else{
+//         return `Este dia no hay servicio`
+//     }
+// }
+
+// const preguntaDelDia = prompt(`Por favor, ingrese el dia`)
+// const recepcionDia = diaEscogido(preguntaDelDia)
+
+// alert (recepcionDia)
+
+
+//................................................................................
+
+//EJERCICIO (15)
+
+
+// function productoEscogido(producto){
+//     const productoMinuscula = producto
+
+//     const dato = {
+//         monitor: 200,
+//         teclado: 20,
+//         raton: 10,
+//     }
+    
+//     if (dato[productoMinuscula]){
+//         const contenedorProdcuto = dato[productoMinuscula]
+//         return `El pruducto ingresado tiene el precio de ${contenedorProdcuto}€`
+//     }
+// }
+
+// const preguntaDelProducto = prompt(`Por favor, ingrese el producto deseado`)
+// const recepcionProducto = productoEscogido(preguntaDelProducto)
+
+// alert (recepcionProducto)
